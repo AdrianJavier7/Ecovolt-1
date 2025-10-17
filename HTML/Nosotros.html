@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inicio</title>
+    <title>Sobre Nosotros</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
@@ -47,10 +47,10 @@
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 " id="navbar-user">
             <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#E6F0D2] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                    <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-[#708E33] md:p-0 md:dark:text-blue-500" aria-current="page">Inicio</a>
+                    <a href="Inicio.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Inicio</a>
                 </li>
                 <li>
-                    <a href="Nosotros.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre nosotros</a>
+                    <a href="Nosotros.html" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-[#708E33] md:p-0 md:dark:text-blue-500" aria-current="page" >Sobre nosotros</a>
                 </li>
                 <li>
                     <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Valores</a>
@@ -66,63 +66,53 @@
     </div>
 </nav>
 
-
-
-<section class="relative bg-gray-500 bg-blend-multiply overflow-hidden border-b-4 border-[#708E33]">
-    <div class="absolute inset-0 bg-center bg-cover bg-[url('../img/fondo2.jpeg')] blur-md"></div>
-    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-
-    <div class="relative px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 text-white">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">
-            ¡Únete a nosotros ten una energía limpia!
-        </h1>
-        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+<section class="relative bg-gray-900 text-white border-b-4 border-[#708E33]">
+    <div class="absolute inset-0">
+        <img src="../img/imagenNosotros.jpg" alt="Equipo Ecovolt" class="w-full h-full object-cover opacity-20">
+    </div>
+    <div class="relative px-6 py-32 text-center max-w-3xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Sobre <span class="text-[#638718]">Ecovolt</span></h1>
+        <p class="text-lg text-gray-200">
+            Creemos que el futuro es sostenible y comienza con cada rayo de sol.
         </p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#b3bda0] hover:bg-emerald-7X00 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                Empezar
-                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-            <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                Saber más
-            </a>
+    </div>
+</section>
+
+<!-- QUIÉNES SOMOS -->
+<section class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <img src="../img/paneles.jpeg" alt="Instalación solar Ecovolt" class="w-96 rounded-xl shadow-lg">
+        <div>
+            <h2 class="text-3xl font-bold text-[#638718] mb-4">Quiénes somos</h2>
+            <p class="text-gray-600 mb-4">
+                En <strong>Ecovolt</strong> somos una empresa española especializada en la instalación, mantenimiento y
+                monitorización de sistemas de energía solar fotovoltaica para hogares, comunidades y empresas.
+            </p>
+            <p class="text-gray-600 mb-4">
+                Fundada en 2021, nuestra misión es ayudar a reducir la dependencia de energías contaminantes, disminuir los costes
+                eléctricos y contribuir a un planeta más verde y eficiente.
+            </p>
+            <p class="text-gray-600">
+                Con sedes en Madrid y Sevilla, gestionamos proyectos en toda España ofreciendo un servicio cercano y personalizado.
+            </p>
         </div>
     </div>
 </section>
 
 
-<section class="bg-gradient-to-br from-emerald-50 via-white to-emerald-100 py-16 px-6 text-center">
-    <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl md:text-5xl font-extrabold text-[#80a82f] mb-4 animate__animated animate__fadeIn">
-            Bienvenido a <span class="text-[#638718]">Ecovolt</span>
-        </h1>
-        <h2 class="text-xl md:text-2xl font-semibold text-gray-700 mb-8 animate__animated animate__fadeInUp">
-            Tu energía limpia empieza hoy
-        </h2>
-        <p class="text-gray-600 text-lg leading-relaxed mb-6 text-justify">
-            En <strong>Ecovolt</strong> creemos que el futuro es sostenible, y comienza con cada
-            instalación solar. Somos una empresa española especializada
-            en energía solar fotovoltaica, comprometida con ofrecer soluciones
-            eficientes, rentables y adaptadas a cada cliente.
-        </p>
-        <p class="text-gray-600 text-lg leading-relaxed mb-10 text-justify">
-            Desde hogares particulares hasta grandes empresas, ayudamos a reducir costes energéticos y
-            emisiones contaminantes, impulsando la transición hacia un modelo más responsable y respetuoso
-            con el planeta.
-        </p>
 
 
-        <a href="#servicios"
-           class="text-white bg-[#b3bda0] hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-300 font-medium rounded-lg text-lg px-6 py-3 transition-all">
-            Descubre más
-        </a>
-    </div>
+<section class="bg-[#708E33] py-20 text-center text-white">
+    <h2 class="text-3xl font-bold mb-6">Únete al cambio energético</h2>
+    <p class="text-lg mb-8 max-w-2xl mx-auto">
+        En Ecovolt transformamos la energía solar en una oportunidad para hogares y empresas.
+        ¡Forma parte de un futuro más limpio y sostenible!
+    </p>
+    <a href="/contacto.html"
+       class="inline-flex items-center justify-center px-6 py-3 bg-white text-emerald-700 font-semibold rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-emerald-300 transition">
+        Contáctanos
+    </a>
 </section>
-
-
 
 <footer class="bg-[#E6F0D2] rounded-lg shadow-sm dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
@@ -141,7 +131,6 @@
         </ul>
     </div>
 </footer>
-
 
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
