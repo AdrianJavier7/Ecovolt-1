@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sobre Nosotros</title>
+    <title>Clientes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
@@ -10,8 +10,8 @@
 </head>
 <body>
 
-<!-- Navbar -->
 
+<!-- Navbar -->
 <nav class="bg-[#E6F0D2] border-b border-[#708E33] dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="Inicio.html" class="flex items-center space-x-3 rtl:space-x-reverse ">
@@ -36,62 +36,66 @@
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
             <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#E6F0D2]">
                 <li><a href="Inicio.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Inicio</a></li>
-                <li><a href="Nosotros.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33] md:text-[#708E33]">Sobre nosotros</a></li>
+                <li><a href="Nosotros.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Sobre nosotros</a></li>
                 <li><a href="Valores.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Valores</a></li>
-                <li><a href="Clientes.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Clientes</a></li>
+                <li><a href="Clientes.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33] md:text-[#708E33]">Clientes</a></li>
                 <li><a href="Precio.html" class="block py-2 px-3 text-gray-900 rounded-sm md:bg-transparent ">Precio</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- Sección principal de la página -->
+<!-- Sección de proyectos destacados -->
 
-<section class="relative bg-gray-900 text-white border-b-4 border-[#708E33]">
-    <div class="absolute inset-0">
-        <img src="../img/imagenNosotros.jpg" alt="Equipo Ecovolt" class="w-full h-full object-cover opacity-20">
+<section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center mb-12">
+        <h2 class="text-3xl font-bold text-[#638718] mb-4">Proyectos destacados</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Algunos de los clientes que han confiado en nuestra experiencia.</p>
     </div>
-    <div class="relative px-6 py-32 text-center max-w-3xl mx-auto">
-        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Sobre <span class="text-[#638718]">Ecovolt</span></h1>
-        <p class="text-lg text-gray-200">
-            Creemos que el futuro es sostenible y comienza con cada rayo de sol.
-        </p>
-    </div>
-</section>
-
-<!-- Quiénes somos -->
-
-<section class="bg-white py-20 px-6">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <img src="../img/paneles.jpeg" alt="Instalación solar Ecovolt" class="w-96 rounded-xl shadow-lg">
-        <div>
-            <h2 class="text-3xl font-bold text-[#638718] mb-4">Quiénes somos</h2>
-            <p class="text-gray-600 mb-4">
-                En <strong>Ecovolt</strong> somos una empresa española especializada en la instalación, mantenimiento y
-                monitorización de sistemas de energía solar fotovoltaica para hogares, comunidades y empresas.
-            </p>
-            <p class="text-gray-600 mb-4">
-                Fundada en 2021, nuestra misión es ayudar a reducir la dependencia de energías contaminantes, disminuir los costes
-                eléctricos y contribuir a un planeta más verde y eficiente.
-            </p>
-            <p class="text-gray-600">
-                Con sedes en Madrid y Sevilla, gestionamos proyectos en toda España ofreciendo un servicio cercano y personalizado.
-            </p>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition text-center">
+            <img src="../img/william.png" alt="Williams & Humbert" class="mx-auto h-20 mb-4">
+            <h3 class="text-xl font-semibold text-[#638718] mb-2">Williams & Humbert</h3>
+            <p class="text-gray-600">Instalación de 539 kWp fotovoltaicos en su bodega de Jerez de la Frontera.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition text-center">
+            <img src="../img/gonzalez.png" alt="González Byass" class="mx-auto h-20 mb-4">
+            <h3 class="text-xl font-semibold text-[#638718] mb-2">González Byass</h3>
+            <p class="text-gray-600">Ampliación de paneles solares para lograr más de 10 horas diarias de autonomía fotovoltaica.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition text-center">
+            <img src="../img/repsol.png" alt="Repsol" class="mx-auto h-20 mb-4">
+            <h3 class="text-xl font-semibold text-[#638718] mb-2">Repsol</h3>
+            <p class="text-gray-600">Sistema de autoconsumo en parte del Campus Repsol, reduciendo 20% del consumo eléctrico convencional.</p>
         </div>
     </div>
 </section>
 
+<!-- Pruebas de clientes -->
 
+<section class="bg-gray-100 py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center mb-12">
+        <h2 class="text-3xl font-bold text-[#638718] mb-4">Qué dicen nuestros clientes</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">La satisfacción de nuestros clientes es nuestra mayor recompensa.</p>
+    </div>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <p class="text-gray-600 mb-4">"Gracias a Ecovolt hemos reducido notablemente nuestro consumo eléctrico y contribuimos al cuidado del medio ambiente."</p>
+            <h3 class="text-[#638718] font-semibold">Juan Pérez, Williams & Humbert</h3>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <p class="text-gray-600 mb-4">"El equipo de Ecovolt es muy profesional y nos guió en todo el proceso de instalación de paneles solares."</p>
+            <h3 class="text-[#638718] font-semibold">María González, González Byass</h3>
+        </div>
+    </div>
+</section>
 
+<!-- Footer -->
 
-<section class="bg-[#708E33] py-20 text-center text-white">
-    <h2 class="text-3xl font-bold mb-6">Únete al cambio energético</h2>
-    <p class="text-lg mb-8 max-w-2xl mx-auto">
-        En Ecovolt transformamos la energía solar en una oportunidad para hogares y empresas.
-        ¡Forma parte de un futuro más limpio y sostenible!
-    </p>
-    <a href="/contacto.html"
-       class="inline-flex items-center justify-center px-6 py-3 bg-white text-emerald-700 font-semibold rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-emerald-300 transition">
+<section class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-[#638718] mb-4">¿Quieres formar parte de nuestros clientes?</h2>
+    <p class="text-gray-600 mb-8">Únete a la transición energética y descubre cómo podemos ayudarte a reducir tus costes y emisiones.</p>
+    <a href="Contacto.html" class="inline-flex items-center justify-center px-6 py-3 bg-[#638718] text-white font-semibold rounded-lg hover:bg-emerald-700 transition">
         Contáctanos
     </a>
 </section>
@@ -108,7 +112,7 @@
                 <a  class="hover:underline me-4 md:me-6 text-black">Política de privacidad</a>
             </li>
             <li>
-                <a class="hover:underline text-black">Contacto</a>
+                <a  class="hover:underline text-black">Contacto</a>
             </li>
         </ul>
     </div>

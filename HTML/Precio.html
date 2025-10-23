@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Precios | EcoVolt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Inter] bg-white">
+
+<!-- Navbar -->
+
+<nav class="bg-[#E6F0D2] border-b border-[#708E33] dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="Inicio.html" class="flex items-center space-x-3 rtl:space-x-reverse ">
+            <img src="../img/ecovolt.png" class="h-8" alt="Ecovolt Logo" />
+        </a>
+        <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                <span class="sr-only">Abrir menu usuario</span>
+                <img class="w-8 h-8 rounded-full" src="../img/adri.png" alt="user photo">
+            </button>
+            <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+                <div class="px-4 py-3">
+                    <span class="block text-sm text-gray-900 dark:text-white">Adrián Javier</span>
+                    <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">aperezmiranda@safareyes.es</span>
+                </div>
+                <ul class="py-2" aria-labelledby="user-menu-button">
+                    <li><a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Perfil</a></li>
+                    <li><a href="Login.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Salir</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
+            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#E6F0D2]">
+                <li><a href="Inicio.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Inicio</a></li>
+                <li><a href="Nosotros.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Sobre nosotros</a></li>
+                <li><a href="Valores.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Valores</a></li>
+                <li><a href="Clientes.html" class="block py-2 px-3 text-gray-900 hover:text-[#708E33]">Clientes</a></li>
+                <li><a href="Precio.html" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-[#708E33]">Precio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección de Precios -->
+
+<section class="py-16 bg-white">
+    <div class="max-w-screen-xl mx-auto text-center">
+        <h2 class="text-4xl font-bold text-[#708E33] mb-4">Planes y Precios</h2>
+        <p class="text-gray-600 mb-12">Elige el plan que mejor se adapte a tu hogar o empresa. Todos nuestros planes incluyen instalación y soporte técnico.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+            <div class="flex flex-col p-6 bg-[#F3F8E4] border border-[#D1E3A8] rounded-2xl shadow-sm hover:shadow-md transition">
+                <h3 class="mb-4 text-2xl font-semibold text-gray-800">Plan Básico</h3>
+                <p class="text-gray-500 mb-4">Ideal para hogares pequeños</p>
+                <div class="flex items-baseline justify-center mb-6">
+                    <span class="text-4xl font-bold text-[#708E33]">49€</span>
+                    <span class="text-gray-500 ml-1">/mes</span>
+                </div>
+                <ul class="mb-8 space-y-3 text-left">
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Instalación básica (2 paneles)</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Soporte técnico incluido</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Garantía 2 años</li>
+                </ul>
+                <a href="#" class="text-white bg-[#708E33] hover:bg-[#5E7A2A] focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Elegir Plan</a>
+            </div>
+
+
+            <div class="flex flex-col p-6 bg-white border-2 border-[#708E33] rounded-2xl shadow-lg transform scale-105">
+                <h3 class="mb-4 text-2xl font-semibold text-[#708E33]">Plan Eficiente</h3>
+                <p class="text-gray-500 mb-4">La opción más popular</p>
+                <div class="flex items-baseline justify-center mb-6">
+                    <span class="text-4xl font-bold text-[#708E33]">79€</span>
+                    <span class="text-gray-500 ml-1">/mes</span>
+                </div>
+                <ul class="mb-8 space-y-3 text-left">
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" ...>...</svg> Instalación avanzada (4 paneles)</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" ...>...</svg> Monitoreo de consumo online</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" ...>...</svg> Garantía 5 años</li>
+                </ul>
+                <a href="#" class="text-white bg-[#708E33] hover:bg-[#5E7A2A] focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Elegir Plan</a>
+            </div>
+
+            <div class="flex flex-col p-6 bg-[#F3F8E4] border border-[#D1E3A8] rounded-2xl shadow-sm hover:shadow-md transition">
+                <h3 class="mb-4 text-2xl font-semibold text-gray-800">Plan Premium Solar</h3>
+                <p class="text-gray-500 mb-4">Para empresas o grandes viviendas</p>
+                <div class="flex items-baseline justify-center mb-6">
+                    <span class="text-4xl font-bold text-[#708E33]">129€</span>
+                    <span class="text-gray-500 ml-1">/mes</span>
+                </div>
+                <ul class="mb-8 space-y-3 text-left">
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" ...>...</svg> Instalación completa (8 paneles)</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" ...>...</svg> Baterías de almacenamiento</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 text-[#708E33] me-2" ...>...</svg> Garantía 10 años</li>
+                </ul>
+                <a href="#" class="text-white bg-[#708E33] hover:bg-[#5E7A2A] focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Elegir Plan</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-[#E6F0D2] rounded-lg shadow-sm dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-black sm:text-center dark:text-gray-400">© 2025 <a href="Inicio.html" class="hover:underline text-black">EcoVolt</a>. Todos los derechos reservados.
+    </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a  class="hover:underline me-4 md:me-6 text-black">Sobre</a>
+            </li>
+            <li>
+                <a  class="hover:underline me-4 md:me-6 text-black">Política de privacidad</a>
+            </li>
+            <li>
+                <a  class="hover:underline text-black">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
